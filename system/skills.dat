@@ -1,0 +1,1568 @@
+#SKILL
+Name         reserved~
+Type         Spell
+Flags        0
+Minpos       8
+Guild        10
+Dammsg       ~
+Wearoff      ???~
+Minlevel     101
+End
+
+#SKILL
+Name         acute awareness~
+Type         Skill
+Flags        0
+Target       3
+Minpos       8
+Rounds       20
+Guild        3
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your awareness becomes less acute.~
+Hitchar      You focus your senses to find those that would hide from you.~
+Misschar     You fail to make your awareness more acute.~
+Teachers     32050~
+Affect       'l*5' 26 'detect hidden' 32
+Minlevel     25
+End
+
+#SKILL
+Name         aid~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        5
+Code         do_aid
+Dammsg       ~
+Wearoff      !Aid!~
+Teachers     407~
+Minlevel     1
+End
+
+#SKILL
+Name         appeal~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        5
+Code         do_appeal
+Dammsg       ~
+Minlevel     85
+End
+
+#SKILL
+Name         attend~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        9
+Code         do_attend
+Dammsg       ~
+Minlevel     1
+End
+
+#SKILL
+Name         backstab~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        3
+Code         do_backstab
+Dammsg       backstab~
+Wearoff      !Backstab!~
+Teachers     407~
+Minlevel     95
+End
+
+#SKILL
+Name         bandage~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        9
+Code         do_bandage
+Dammsg       ~
+Minlevel     8
+End
+
+#SKILL
+Name         bash~
+Type         Skill
+Flags        0
+Target       1
+Minpos       7
+Rounds       8
+Guild        0
+Code         do_bash
+Dammsg       bash~
+Wearoff      !Bash!~
+Teachers     407~
+Minlevel     47
+End
+
+#SKILL
+Name         beg~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       20
+Guild        4
+Code         do_beg
+Dammsg       ~
+Wearoff      !Beg!~
+Teachers     407~
+Minlevel     1
+End
+
+#SKILL
+Name         calm~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        5
+Code         do_calm
+Dammsg       ~
+Minlevel     42
+End
+
+#SKILL
+Name         capital ships~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        1
+Code         spell_null
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     90
+End
+
+#SKILL
+Name         charm~
+Type         Skill
+Flags        0
+Guild        5
+Code         do_makespice
+Dammsg       ~
+Minlevel     135
+End
+
+#SKILL
+Name         chemistry~
+Type         Skill
+Flags        0
+Guild        8
+Code         do_makespice
+Dammsg       ~
+Minlevel     110
+End
+
+#SKILL
+Name         circle~
+Type         Skill
+Flags        0
+Minpos       7
+Rounds       8
+Guild        3
+Code         do_circle
+Dammsg       circle~
+Wearoff      !Circle!~
+Teachers     407~
+Minlevel     50
+End
+
+#SKILL
+Name         climb~
+Type         Skill
+Flags        0
+Target       1
+Minpos       8
+Rounds       10
+Guild        4
+Code         do_climb
+Dammsg       climb~
+Wearoff      !climb!~
+Teachers     407~
+Minlevel     7
+End
+
+#SKILL
+Name         deceive~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        5
+Code         do_deceive
+Dammsg       ~
+Minlevel     35
+End
+
+#SKILL
+Name         detrap~
+Type         Skill
+Flags        0
+Minpos       6
+Rounds       24
+Guild        4
+Code         do_detrap
+Dammsg       ~
+Wearoff      !Detrap!~
+Teachers     407~
+Minlevel     32
+End
+
+#SKILL
+Name         dig~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       20
+Guild        4
+Code         do_dig
+Dammsg       ~
+Teachers     407~
+Minlevel     2
+End
+
+#SKILL
+Name         disarm~
+Type         Skill
+Flags        0
+Minpos       7
+Rounds       24
+Guild        0
+Code         do_disarm
+Dammsg       ~
+Wearoff      !Disarm!~
+Teachers     407~
+Minlevel     35
+End
+
+#SKILL
+Name         discount~
+Type         Skill
+Flags        0
+Guild        5
+Code         do_makespice
+Dammsg       ~
+Minlevel     115
+End
+
+#SKILL
+Name         disguise~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        4
+Code         do_disguise
+Dammsg       ~
+Wearoff      !disguise!~
+Teachers     407~
+Minlevel     80
+End
+
+#SKILL
+Name         dodge~
+Type         Skill
+Flags        0
+Minpos       7
+Guild        0
+Code         spell_null
+Dammsg       ~
+Wearoff      !Dodge!~
+Teachers     407~
+Minlevel     50
+End
+
+#SKILL
+Name         doorbash~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       24
+Guild        3
+Code         do_bashdoor
+Dammsg       bashdoor~
+Wearoff      !Bash Door!~
+Teachers     407~
+Minlevel     10
+End
+
+#SKILL
+Name         drug~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        10
+Code         do_makespice
+Dammsg       ~
+Minlevel     1
+End
+
+#SKILL
+Name         dual wield~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        0
+Code         spell_null
+Dammsg       ~
+Wearoff      !Dual Wield!~
+Teachers     407~
+Minlevel     27
+End
+
+#SKILL
+Name         empathize~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        5
+Code         do_empathize
+Dammsg       ~
+Minlevel     15
+End
+
+#SKILL
+Name         enhanced damage~
+Type         Skill
+Flags        0
+Minpos       7
+Guild        0
+Code         spell_null
+Dammsg       ~
+Wearoff      !Enhanced Damage!~
+Teachers     407~
+Minlevel     10
+End
+
+#SKILL
+Name         field research~
+Type         Skill
+Flags        0
+Guild        9
+Code         do_makespice
+Dammsg       ~
+Minlevel     125
+End
+
+#SKILL
+Name         first aid~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        10
+Code         do_first_aid
+Dammsg       ~
+Wearoff      !First Aid!~
+Teachers     32006~
+Minlevel     2
+End
+
+#SKILL
+Name         frenzy~
+Type         Skill
+Flags        0
+Minpos       7
+Guild        3
+Code         do_frenzy
+Dammsg       ~
+Wearoff      You leave your frenzied state.~
+Hitchar      $n begins to enter a frenzy! ~
+Hitvict      You enter a frenzied state!~
+Minlevel     150
+End
+
+#SKILL
+Name         gemcutting~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        10
+Code         do_gemcutting
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     50
+End
+
+#SKILL
+Name         gouge~
+Type         Skill
+Flags        0
+Minpos       7
+Rounds       10
+Guild        10
+Code         do_gouge
+Dammsg       gouge~
+Wearoff      !Gouge!~
+Teachers     407~
+Minlevel     114
+End
+
+#SKILL
+Name         grenades~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        0
+Code         spell_null
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     61
+End
+
+#SKILL
+Name         grip~
+Type         Skill
+Flags        0
+Minpos       7
+Guild        0
+Code         spell_null
+Dammsg       ~
+Wearoff      !Grip!~
+Teachers     407~
+Minlevel     50
+End
+
+#SKILL
+Name         group_heal~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        9
+Code         do_group_heal
+Dammsg       ~
+Minlevel     100
+End
+
+#SKILL
+Name         hackbank~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        7
+Code         do_who
+Dammsg       ~
+Minlevel     200
+End
+
+#SKILL
+Name         hackbaydoor~
+Type         Skill
+Flags        0
+Minpos       7
+Rounds       10
+Guild        7
+Code         do_hackbaydoor
+Dammsg       ~
+Wearoff      !Hack Systems!~
+Minlevel     60
+End
+
+#SKILL
+Name         hackbounty~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        7
+Code         do_hackbounty
+Dammsg       ~
+Minlevel     120
+End
+
+#SKILL
+Name         hackbroadcast~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        7
+Code         do_hackbroadcast
+Dammsg       ~
+Minlevel     45
+End
+
+#SKILL
+Name         hackcamera~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        7
+Code         do_hackcamera
+Dammsg       ~
+Minlevel     80
+End
+
+#SKILL
+Name         hackclanaccount~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        7
+Code         do_who
+Dammsg       ~
+Minlevel     200
+End
+
+#SKILL
+Name         hacklaunch~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        7
+Code         do_hacklaunch
+Dammsg       ~
+Wearoff      !HACKLAUNCH!~
+Minlevel     30
+End
+
+#SKILL
+Name         hackshipdoor~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        7
+Code         do_hackshipdoor
+Dammsg       ~
+Minlevel     20
+End
+
+#SKILL
+Name         hacktransfer~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        7
+Code         do_hackbanktransfer
+Dammsg       ~
+Wearoff      !HACKBANKTRANSFER!~
+Minlevel     70
+End
+
+#SKILL
+Name         hackwho~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        7
+Code         do_newwhois
+Dammsg       ~
+Minlevel     1
+End
+
+#SKILL
+Name         heal~
+Type         Skill
+Flags        0
+Guild        9
+Code         do_heal
+Dammsg       ~
+Minlevel     20
+End
+
+#SKILL
+Name         heighten accuracy~
+Type         Skill
+Flags        0
+Target       3
+Minpos       8
+Rounds       20
+Guild        3
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You feel your accuracy lower slightly.~
+Hitchar      You concentrate more on aiming at your opponent.~
+Misschar     You fail to raise your accuracy.~
+Affect       'l*10' 18 '2+(l/33)' 0
+Minlevel     85
+End
+
+#SKILL
+Name         hide~
+Type         Skill
+Flags        0
+Target       3
+Minpos       5
+Rounds       12
+Guild        4
+Code         do_hide
+Dammsg       ~
+Wearoff      You are no longer hidden.~
+Hitvict      You attempt to hide.~
+Misschar     You fail to hide.~
+Teachers     407~
+Affect       'l*23' 26 'hide' 65536
+Minlevel     15
+End
+
+#SKILL
+Name         hijack~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        4
+Code         do_hijack
+Dammsg       ~
+Wearoff      !Hijack!~
+Teachers     407~
+Minlevel     95
+End
+
+#SKILL
+Name         hitall~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        0
+Code         do_hitall
+Dammsg       hit~
+Wearoff      !HitAll!~
+Teachers     407~
+Minlevel     87
+End
+
+#SKILL
+Name         jumpvector~
+Type         Skill
+Flags        0
+Guild        1
+Code         spell_null
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     35
+End
+
+#SKILL
+Name         kick~
+Type         Skill
+Flags        0
+Target       1
+Minpos       7
+Rounds       8
+Guild        0
+Code         do_kick
+Dammsg       kick~
+Wearoff      !Kick!~
+Teachers     407~
+Minlevel     6
+End
+
+#SKILL
+Name         limber~
+Type         Skill
+Flags        0
+Target       3
+Minpos       8
+Rounds       20
+Guild        3
+Code         spell_smaug
+Dammsg       ~
+Hitchar      You relax your muscles becoming limber and agile.~
+Misschar     You can't become any more limber.~
+Affect       'l*10' 2 '2+(l/33)' 0
+Minlevel     75
+End
+
+#SKILL
+Name         lobby~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        5
+Code         do_lobby
+Dammsg       ~
+Minlevel     162
+End
+
+#SKILL
+Name         makeapplicator~
+Type         Skill
+Flags        0
+Guild        8
+Code         do_makeapplicator
+Dammsg       ~
+Minlevel     15
+End
+
+#SKILL
+Name         makearmor~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        2
+Code         do_makearmor
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     70
+End
+
+#SKILL
+Name         makebloodyeye~
+Type         Skill
+Flags        0
+Guild        8
+Code         do_makebloodyeye
+Dammsg       ~
+Minlevel     130
+End
+
+#SKILL
+Name         makeblueeye~
+Type         Skill
+Flags        0
+Guild        8
+Code         do_makeblueeye
+Dammsg       ~
+Minlevel     70
+End
+
+#SKILL
+Name         makecomlink~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        2
+Code         do_makecomlink
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     5
+End
+
+#SKILL
+Name         makecontainer~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        2
+Code         do_makecontainer
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     1
+End
+
+#SKILL
+Name         makeflashlight~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        2
+Code         do_makelight
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     10
+End
+
+#SKILL
+Name         makegreeneye~
+Type         Skill
+Flags        0
+Guild        8
+Code         do_makegreeneye
+Dammsg       ~
+Minlevel     50
+End
+
+#SKILL
+Name         makegrenade~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        2
+Code         do_makegrenade
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     95
+End
+
+#SKILL
+Name         makegun~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        2
+Code         do_makegun
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     95
+End
+
+#SKILL
+Name         makejewelry~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        2
+Code         do_makejewelry
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     80
+End
+
+#SKILL
+Name         makeknife~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        2
+Code         do_makeknife
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     40
+End
+
+#SKILL
+Name         makelandmine~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        2
+Code         do_makelandmine
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     90
+End
+
+#SKILL
+Name         makelaptop~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        7
+Code         do_makelaptop
+Dammsg       ~
+Minlevel     10
+End
+
+#SKILL
+Name         makepurpleeye~
+Type         Skill
+Flags        0
+Guild        8
+Code         do_makepurpleeye
+Dammsg       ~
+Minlevel     90
+End
+
+#SKILL
+Name         makerawdrug~
+Type         Skill
+Flags        0
+Guild        8
+Code         do_makerawdrug
+Dammsg       ~
+Minlevel     1
+End
+
+#SKILL
+Name         makerifle~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        2
+Code         do_makerifle
+Dammsg       ~
+Wearoff      !MAKERFILE!~
+Minlevel     120
+End
+
+#SKILL
+Name         makeshield~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        2
+Code         do_makeshield
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     60
+End
+
+#SKILL
+Name         makesword~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        2
+Code         do_makesword
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     65
+End
+
+#SKILL
+Name         makeyelloweye~
+Type         Skill
+Flags        0
+Guild        8
+Code         do_makeyelloweye
+Dammsg       ~
+Minlevel     105
+End
+
+#SKILL
+Name         master medic~
+Type         Skill
+Flags        0
+Guild        9
+Code         do_makespice
+Dammsg       ~
+Minlevel     150
+End
+
+#SKILL
+Name         midships~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        1
+Code         spell_null
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     30
+End
+
+#SKILL
+Name         mine~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        0
+Code         do_mine
+Dammsg       ~
+Wearoff      !mine!~
+Teachers     407~
+Minlevel     90
+End
+
+#SKILL
+Name         mount~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       10
+Guild        0
+Code         do_mount
+Dammsg       ~
+Wearoff      !Search!~
+Teachers     407~
+Minlevel     114
+End
+
+#SKILL
+Name         navigation~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        1
+Code         spell_null
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     1
+End
+
+#SKILL
+Name         negotiate~
+Type         Skill
+Flags        0
+Guild        5
+Code         do_makespice
+Dammsg       ~
+Minlevel     150
+End
+
+#SKILL
+Name         parry~
+Type         Skill
+Flags        0
+Minpos       7
+Guild        10
+Code         spell_null
+Dammsg       ~
+Wearoff      !Parry!~
+Teachers     50 605~
+Minlevel     115
+End
+
+#SKILL
+Name         peek~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        4
+Code         spell_null
+Dammsg       ~
+Wearoff      !Peek!~
+Teachers     407~
+Minlevel     20
+End
+
+#SKILL
+Name         pick lock~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        4
+Code         do_pick
+Dammsg       ~
+Wearoff      !Pick!~
+Teachers     407~
+Minlevel     40
+End
+
+#SKILL
+Name         pick ship lock~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        4
+Code         do_pickshiplock
+Dammsg       ~
+Wearoff      !Pickshiplock!~
+Teachers     407~
+Minlevel     90
+End
+
+#SKILL
+Name         plead~
+Type         Skill
+Flags        0
+Minpos       7
+Guild        5
+Code         do_plead
+Dammsg       ~
+Minlevel     121
+End
+
+#SKILL
+Name         poison weapon~
+Type         Skill
+Flags        0
+Target       4
+Minpos       8
+Rounds       12
+Guild        10
+Code         do_poison_weapon
+Dammsg       poisonous concoction~
+Wearoff      !Poison Weapon!~
+Teachers     407~
+Minlevel     30
+End
+
+#SKILL
+Name         propaganda~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        5
+Code         do_propaganda
+Dammsg       ~
+Wearoff      !!~
+Minlevel     50
+End
+
+#SKILL
+Name         punch~
+Type         Skill
+Flags        0
+Target       1
+Minpos       7
+Rounds       8
+Guild        0
+Code         do_punch
+Dammsg       punch~
+Wearoff      !Punch!~
+Teachers     407~
+Minlevel     1
+End
+
+#SKILL
+Name         quickdraw~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       8
+Guild        3
+Code         do_quickdraw
+Dammsg       quickdraw~
+Wearoff      !Quickdraw!~
+Teachers     407~
+Minlevel     95
+End
+
+#SKILL
+Name         recover~
+Type         Skill
+Flags        0
+Guild        9
+Code         do_recover
+Dammsg       ~
+Minlevel     190
+End
+
+#SKILL
+Name         rescue~
+Type         Skill
+Flags        0
+Minpos       7
+Rounds       12
+Guild        0
+Code         do_rescue
+Dammsg       ~
+Wearoff      !Rescue!~
+Teachers     407~
+Minlevel     8
+End
+
+#SKILL
+Name         resuscitate~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        9
+Code         do_resuscitate
+Dammsg       ~
+Minlevel     175
+End
+
+#SKILL
+Name         scan~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        0
+Code         do_scan
+Dammsg       ~
+Wearoff      !Scan!~
+Teachers     407~
+Minlevel     1
+End
+
+#SKILL
+Name         search~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       20
+Guild        4
+Code         do_search
+Dammsg       ~
+Wearoff      !Search!~
+Teachers     407~
+Minlevel     3
+End
+
+#SKILL
+Name         second attack~
+Type         Skill
+Flags        0
+Minpos       7
+Guild        0
+Code         spell_null
+Dammsg       ~
+Wearoff      !Second Attack!~
+Teachers     407~
+Minlevel     45
+End
+
+#SKILL
+Name         self medicate~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        9
+Code         do_self_medicate
+Dammsg       ~
+Minlevel     30
+End
+
+#SKILL
+Name         ship maintenance~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        2
+Code         spell_null
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     25
+End
+
+#SKILL
+Name         ship systems~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        1
+Code         spell_null
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     1
+End
+
+#SKILL
+Name         smalltalk~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        5
+Code         do_smalltalk
+Dammsg       ~
+Wearoff      !!~
+Teachers     10104~
+Minlevel     5
+End
+
+#SKILL
+Name         sneak~
+Type         Skill
+Flags        0
+Target       3
+Minpos       8
+Rounds       1
+Guild        4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You stop sneaking.~
+Hitvict      You attempt to move silently.~
+Misschar     You attempt to move silently.~
+Teachers     407~
+Affect       'l*23' 26 'sneak' 32768
+Minlevel     5
+End
+
+#SKILL
+Name         snipe~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       12
+Guild        0
+Code         do_snipe
+Dammsg       ~
+Wearoff      !snipe!~
+Teachers     407~
+Minlevel     2
+End
+
+#SKILL
+Name         space combat 1~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        1
+Code         spell_null
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     25
+End
+
+#SKILL
+Name         space combat 2~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        1
+Code         spell_null
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     50
+End
+
+#SKILL
+Name         space combat 3~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        1
+Code         spell_null
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     75
+End
+
+#SKILL
+Name         spread rumors~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        5
+Code         do_rumors
+Dammsg       ~
+Minlevel     75
+End
+
+#SKILL
+Name         starfighters~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        1
+Code         spell_null
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     1
+End
+
+#SKILL
+Name         steal~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       24
+Guild        4
+Code         do_steal
+Dammsg       ~
+Wearoff      !Steal!~
+Teachers     407~
+Minlevel     1
+End
+
+#SKILL
+Name         stun~
+Type         Skill
+Flags        0
+Target       1
+Minpos       7
+Rounds       8
+Guild        10
+Code         do_punch
+Dammsg       stun~
+Wearoff      You regain consciousness.~
+Teachers     407~
+Minlevel     105
+End
+
+#SKILL
+Name         support~
+Type         Skill
+Flags        0
+Minpos       7
+Guild        5
+Code         do_support
+Dammsg       ~
+Minlevel     101
+End
+
+#SKILL
+Name         surgery~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        9
+Code         do_surgery
+Dammsg       ~
+Minlevel     55
+End
+
+#SKILL
+Name         third attack~
+Type         Skill
+Flags        0
+Minpos       7
+Guild        0
+Code         spell_null
+Dammsg       ~
+Wearoff      !Third Attack!~
+Teachers     407~
+Minlevel     95
+End
+
+#SKILL
+Name         throw~
+Type         Skill
+Flags        0
+Minpos       6
+Rounds       12
+Guild        0
+Code         do_throw
+Dammsg       ~
+Wearoff      !throw!~
+Teachers     407~
+Minlevel     5
+End
+
+#SKILL
+Name         track~
+Type         Skill
+Flags        0
+Minpos       8
+Rounds       14
+Guild        3
+Code         do_track
+Dammsg       ~
+Wearoff      !Track!~
+Teachers     407~
+Minlevel     3
+End
+
+#SKILL
+Name         treat~
+Type         Skill
+Flags        0
+Minpos       8
+Guild        9
+Code         do_treat
+Dammsg       ~
+Minlevel     70
+End
+
+#SKILL
+Name         weapon systems~
+Type         Skill
+Flags        0
+Minpos       5
+Guild        1
+Code         spell_null
+Dammsg       ~
+Wearoff      !done!~
+Teachers     407~
+Minlevel     2
+End
+
+#SKILL
+Name         bludgeons~
+Type         Weapon
+Flags        0
+Minpos       7
+Guild        10
+Code         spell_null
+Dammsg       ~
+Wearoff      !Bludgeons!~
+Minlevel     101
+End
+
+#SKILL
+Name         flexible arms~
+Type         Weapon
+Flags        0
+Minpos       7
+Guild        10
+Code         spell_null
+Dammsg       ~
+Wearoff      !Flexible Arms!~
+Minlevel     101
+End
+
+#SKILL
+Name         heavy weapons~
+Type         Weapon
+Flags        0
+Guild        0
+Code         spell_null
+Dammsg       ~
+Wearoff      !Heavy weapons!~
+Teachers     407~
+Minlevel     3
+End
+
+#SKILL
+Name         knives~
+Type         Weapon
+Flags        0
+Minpos       7
+Guild        0
+Code         spell_null
+Dammsg       ~
+Wearoff      !Knives!~
+Teachers     407~
+Minlevel     1
+End
+
+#SKILL
+Name         pistols~
+Type         Weapon
+Flags        0
+Minpos       7
+Guild        0
+Code         spell_null
+Dammsg       ~
+Wearoff      !Pistols!~
+Teachers     407~
+Minlevel     1
+End
+
+#SKILL
+Name         rifles~
+Type         Weapon
+Flags        0
+Minpos       7
+Guild        0
+Code         spell_null
+Dammsg       ~
+Wearoff      !Rifles!~
+Teachers     407~
+Minlevel     2
+End
+
+#SKILL
+Name         swords~
+Type         Weapon
+Flags        0
+Minpos       7
+Guild        0
+Code         spell_null
+Dammsg       ~
+Wearoff      !Swords!~
+Teachers     407~
+Minlevel     2
+End
+
+#SKILL
+Name         talonous arms~
+Type         Weapon
+Flags        0
+Minpos       7
+Guild        10
+Code         do_makeblueeye
+Dammsg       ~
+Wearoff      !Talonous Arms!~
+Minlevel     101
+End
+
+#SKILL
+Name         common~
+Type         Tongue
+Flags        0
+Guild        10
+Code         spell_null
+Dammsg       ~
+Wearoff      !Common!~
+Minlevel     1
+End
+
+#END
